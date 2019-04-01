@@ -1,7 +1,7 @@
 # Curso-Front-end
 
 
-# Links de interés
+ Links de interés
 
 * Free programming books: https://goalkicker.com/
 * W3C validador html: https://validator.w3.org/
