@@ -12,3 +12,6 @@
 * CSS selectors: https://css4-selectors.com/selectors/
 * CSS Autoprefixer: https://autoprefixer.github.io/
 
+# Temario
+
+* 01 - HTML5
