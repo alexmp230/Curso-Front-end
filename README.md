@@ -15,3 +15,4 @@
 # Temario
 
 * 01 - HTML5
+* 02 - CSS
