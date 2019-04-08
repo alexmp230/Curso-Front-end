@@ -1,0 +1,28 @@
+.wrapper-profile {
+    display: flex;  
+    flex-flow: row wrap;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper-profile > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .aside li{
+      list-style: none;
+  }
+  .aside-2{
+    display: flex;
+    font-size: 25px;
+  }
+  
+  
+  @media all and (min-width: 768px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+ 
+    
