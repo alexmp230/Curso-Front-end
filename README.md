@@ -11,8 +11,12 @@
 * All about CSS: https://css-tricks.com
 * CSS selectors: https://css4-selectors.com/selectors/
 * CSS Autoprefixer: https://autoprefixer.github.io/
+* Technology compatibilities: https://caniuse.com/
+* Flexbox practice: https://flexboxfroggy.com/ or http://www.flexboxdefense.com/
 
 # Temario
 
 * 01 - HTML5
 * 02 - CSS
+* 03 - Práctica Final CSS/HTML
+* 04 - 
