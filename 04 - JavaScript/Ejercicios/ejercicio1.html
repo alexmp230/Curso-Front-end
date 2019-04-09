@@ -1,0 +1,50 @@
+//Programa que te pida 2 números y calcule cuantos pares e impares hay entre
+ellos, los enumere y imprima la suma total.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script languaje="javascript" type="text/javascript">
+      let num1 = prompt("Escribe el primer número");
+      let num2 = prompt("Escribe el segundo número");
+
+      //Hace que lo trate como números y no como string, el prompt recoge stringss
+      num1 = +num1;
+      num2 = +num2;
+
+      let pares = 0;
+      let impares = 0;
+      let suma = 0;
+      let cadena = " ";
+      if (num1 >= num2) {
+        mayor = num1;
+        menor = num2;
+      } else {
+        mayor = num2;
+        menor = num1;
+      }
+      for (let i = menor; i <= mayor; i++) {
+        cadena = cadena + i + " ";
+
+        if (i % 2 == 1) {
+          impares++;
+        } else {
+          pares++;
+        }
+
+        suma = suma + i;
+      }
+
+      document.write("<p>Pares: " + pares + " </p>");
+      document.write("<p>Impares: " + impares + " </p>");
+      document.write("Suma total: " + suma + " </p>");
+      document.write("<p>Números: " + cadena + " </p>");
+    </script>
+  </body>
+</html>
