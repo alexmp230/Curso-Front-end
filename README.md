@@ -20,5 +20,5 @@
 * CSS selectors: https://css4-selectors.com/selectors/
 * CSS Autoprefixer: https://autoprefixer.github.io/
 * CSSFLexBox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-      * Flexbox practice: https://flexboxfroggy.com/ or http://www.flexboxdefense.com/
+* Flexbox practice: https://flexboxfroggy.com/ or http://www.flexboxdefense.com/
 * Technology compatibilities: https://caniuse.com/
