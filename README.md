@@ -1,7 +1,13 @@
 # Curso-Front-end
 
+# Temario
 
- Links de interés
+* 01 - HTML5
+* 02 - CSS
+* 03 - Práctica Final CSS/HTML
+* 04 - JavaScript
+
+Links de interés
 
 * Free programming books: https://goalkicker.com/
 * Visual studio code Windows shortcuts: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -13,10 +19,3 @@
 * CSS Autoprefixer: https://autoprefixer.github.io/
 * Technology compatibilities: https://caniuse.com/
 * Flexbox practice: https://flexboxfroggy.com/ or http://www.flexboxdefense.com/
-
-# Temario
-
-* 01 - HTML5
-* 02 - CSS
-* 03 - Práctica Final CSS/HTML
-* 04 - JavaScript
