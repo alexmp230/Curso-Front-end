@@ -1,0 +1,58 @@
+Ejercicio que consiste en que el usuario introduzca dos números entre el 1 y el 10 y se genere 
+una tabla de multiplicar con bordes, donde el número menor 
+sea el que es multiplicado tantas veces desde el 1 hasta el número mayor.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body><br><br>
+    <script languaje="javascript" type="text/javascript">
+      let num1 = prompt("Escribe el primer número");
+      let num2 = prompt("Escribe el segundo número");
+      let contador = 1;
+
+      //Hace que lo trate como números y no como string, el prompt recoge stringss
+      num1 = +num1;
+      num2 = +num2;
+
+      if (num1 >= num2) {
+        mayor = num1;
+        menor = num2;
+      } else {
+        mayor = num2;
+        menor = num1;
+      }
+      if (menor < 1 || menor > 10) {
+        alert("El número menor debe estar entre 1 y 10");
+      } else if (mayor < 1 || mayor > 10) {
+        alert("El número mayor debe estar entre 1 y 10");
+      } else {
+        document.write("<table border='1'>");
+
+        for (let i = 1; i <= mayor; i++) {
+          document.write("<tr>");
+          document.write(
+            "<td>" +
+              menor +
+              " x " +
+              contador +
+              "</td><td> = </td>" +
+              "<td>" +
+              menor * contador +
+              "</td"
+          );
+
+          document.write("</tr>");
+          contador++;
+        }
+
+        document.write("</table>");
+      }
+    </script>
+  </body>
+</html>
