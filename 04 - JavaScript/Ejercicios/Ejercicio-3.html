@@ -1,0 +1,60 @@
+Ejercicio para averiguar cuantos párrafos tiene el documento, cuantos enlaces
+totales y cuantos enlaces en el primer párrafo.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <p>
+      orem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+      <a href="#">ENLACE</a>
+      It has survived not only five centuries, but also the leap into electronic
+      typesetting, remaining essentially unchanged. It was popularised in the
+      1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+      and more recently with desktop publishing software like Aldus PageMaker
+      including versions of Lorem Ipsum.<a href="#">ENLACE</a>
+    </p>
+    <p>
+      orem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.<a href="#">ENLACE</a> It has survived not only
+      five centuries, but also the leap into electronic typesetting, remaining
+      essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum.
+    </p>
+    <p>
+      orem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. <a href="#">ENLACE</a>It has survived not only
+      five centuries, but also the leap into electronic typesetting, remaining
+      essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum.
+    </p>
+
+    <script languaje="javascript" type="text/javascript">
+      let parr = document.getElementsByTagName("p");
+      let enlace = document.getElementsByTagName("a");
+
+      document.write("Total de parrafos " + parr.length + "<br>");
+      document.write("Total de enlaces " + enlace.length + "<br>");
+      document.write(
+        "Total de enlaces en el primer párrafo " +
+          parr[0].getElementsByTagName("a").length
+      );
+    </script>
+  </body>
+</html>
