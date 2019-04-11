@@ -1,0 +1,36 @@
+- Cambiar clase encabezado del div por resalta.
+- Sumar una unidad al contenido de factura llegando a ese campo a través del div sin modificar el HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS EXAMPLE</title>
+</head>
+<body>
+    <div id="encabezadoFactura" class="encabezado">
+        
+            <label class="nombre">Luis</label>
+            <label class="telefono">96854785</label>
+            <label class="numeroFactura">1250</label>
+
+    </div>
+
+</body>
+
+<script>
+          
+    let clase=document.getElementById("encabezadoFactura").className="resalta";
+
+    let factura = document.getElementsByClassName("numeroFactura")[0];
+   /* let hijo = div.children[2];
+    hijo.innerHTML=hijo.innerHTML+1;*/
+
+    factura.innerHTML = +factura.innerHTML+1;
+
+
+</script>
+
+</html>
