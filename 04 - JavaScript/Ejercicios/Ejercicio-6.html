@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS EXAMPLE</title>
+  </head>
+  <body>
+      <p>**Programa que al pasar el ratón por encima de la imagen se cambie por otra, y la quitar el ratón se restablezca</p>
+        <div id="menu" >  
+                <a href="#" id="home">
+                  <img id="menuImg" src="https://ae01.alicdn.com/kf/HTB1iX69NVXXXXXbXFXXq6xXFXXXJ/New-Oct-Home-Textile-DanMachi-Anime-Hestia-40-40CM-Square-Pillow-Case-Covers-39371.jpg" alt="logo" onmouseover="onHover();"  onmouseout="offHover();" />
+                </a>
+              </div>
+
+  <script>
+function onHover()
+{
+    document.getElementById("menuImg").setAttribute('src', 'https://ae01.alicdn.com/kf/HTB1tonHNVXXXXX0apXXq6xXFXXXT/Nuevo-Oct-textil-de-hogar-danmachi-anime-Hestia-40-40-cm-cuadrado-Fundas-De-Almohada-Tapas.jpg_640x640.jpg');
+}
+
+function offHover()
+{
+    document.getElementById("menuImg").setAttribute('src', 'https://ae01.alicdn.com/kf/HTB1iX69NVXXXXXbXFXXq6xXFXXXJ/New-Oct-Home-Textile-DanMachi-Anime-Hestia-40-40CM-Square-Pillow-Case-Covers-39371.jpg');
+}
+
+  </script>
+</html>
