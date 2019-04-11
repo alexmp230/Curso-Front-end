@@ -1,0 +1,39 @@
+JS que devuelva el contenido del title y los enlaces que su title acabe en world
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS EXAMPLE</title>
+</head>
+<body>
+    <div id="div1">
+        <p>
+
+            <a class="normalLink" href="hello.html" title="hello world">Hello World</a>
+            <a class="normalLink" href="bye.html" title="hello world">Bye World</a>
+            <a class="specialLink" href="helloagain.html" title="hello world">Hello Again World</a><br>
+
+        </p>
+
+    </div>
+
+</body>
+
+<script>
+        
+  
+    document.write(document.querySelector("title").innerHTML+"<br>");
+
+    let elem=document.querySelectorAll("a[title$='world']");
+
+    
+    elem.forEach(function(element) {
+        document.write(element+"<br>");
+})
+
+</script>
+
+</html>
